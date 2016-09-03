@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.example.domain">
+    <class name="DbGroupPojo" table="USER_GROUP">
+        <id name="groupID" column="GROUPID">
+            <generator class="native"/>
+        </id>
+        <property name="groupName" column="GROUPNAME" />
+		<property name="userID" column="USERID" />
+        <property name="active" column="GROUPACTIVE" />
+    </class> 
+</hibernate-mapping>

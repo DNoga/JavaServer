@@ -1,0 +1,7 @@
+com.example.auth
+com.example.controllers
+com.example.dao
+com.example.dao.impl
+com.example.domain
+com.example.mappers
+com.example.serializers
